@@ -1,6 +1,10 @@
-import Navbar from "../components/ui/NavBar";
-import Footer from "../components/ui/Footer";
-import MyCarousel from "../components/MyCarousel";
+// import Navbar from "../components/ui/NavBar";
+// import Footer from "../components/ui/Footer";
+// import MyCarousel from "../components/MyCarousel";
+
+import Navbar from "../../components/ui/NavBar";
+import Footer from "../../components/ui/Footer";
+import MyCarousel from "../../components/MyCarousel";
 
 export default function Home() {
   return (
