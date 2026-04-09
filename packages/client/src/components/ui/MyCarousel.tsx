@@ -1,6 +1,4 @@
-"use client";
-
-import Image from "next/image";
+import React from "react";
 import Autoplay from "embla-carousel-autoplay";
 
 import {
@@ -9,7 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "./carousel";
 
 export default function MyCarousel() {
   const images = [
@@ -31,10 +29,8 @@ export default function MyCarousel() {
         <CarouselContent>
           {images.map((img, index) => (
             <CarouselItem key={index}>
-              <Image
+              <img
                 src={img}
-                width={800}
-                height={500}
                 alt="carousel image"
                 className="w-full h-[400px] object-cover rounded-xl"
               />
