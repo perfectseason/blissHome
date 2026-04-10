@@ -1,25 +1,27 @@
 {
-  "name": "blisshome",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "bun run index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/react-router-dom": "^5.3.3",
-    "concurrently": "^9.2.1"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "react-router-dom": "^7.14.0"
-  }
+   "name": "blisshome",
+   "module": "index.ts",
+   "type": "module",
+   "private": true,
+   "scripts": {
+      "dev": "bun run index.ts",
+      "format": "prettier --write ."
+   },
+   "devDependencies": {
+      "@types/bun": "latest",
+      "@types/react-router-dom": "^5.3.3",
+      "concurrently": "^9.2.1",
+      "prettier": "^3.8.2"
+   },
+   "peerDependencies": {
+      "typescript": "^5"
+   },
+   "workspaces": [
+      "packages/*"
+   ],
+   "dependencies": {
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "react-router-dom": "^7.14.0"
+   }
 }

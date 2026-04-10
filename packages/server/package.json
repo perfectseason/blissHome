@@ -1,25 +1,26 @@
 {
-  "name": "server",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/express": "^5.0.6",
-    "@types/react-router-dom": "^5.3.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "dotenv": "^17.4.1",
-    "express": "^5.2.1",
-    "react-router-dom": "^7.14.0"
-  }
+   "name": "server",
+   "module": "index.ts",
+   "type": "module",
+   "private": true,
+   "scripts": {
+      "start": "bun run index.ts",
+      "dev": "bun --watch run index.ts"
+   },
+   "devDependencies": {
+      "@types/bun": "latest",
+      "@types/express": "^5.0.6",
+      "@types/react-router-dom": "^5.3.3"
+   },
+   "peerDependencies": {
+      "typescript": "^5"
+   },
+   "dependencies": {
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "concurrently": "^9.2.1",
+      "dotenv": "^17.4.1",
+      "express": "^5.2.1",
+      "react-router-dom": "^7.14.0"
+   }
 }
