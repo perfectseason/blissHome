@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import router from './routes';
+import OpenAI from 'openai';
 
 dotenv.config();
 
